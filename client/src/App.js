@@ -10,8 +10,9 @@ import "./App.css";
 import Launches from "./components/Launches";
 import Launch from "./components/Launch";
 
+// Create Apollo instance
 const client = new ApolloClient({
-  uri: "http://localhost:5000/graphql"
+  uri: "/graphql"
 });
 
 class App extends Component {
